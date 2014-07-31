@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="assets/ember-cli-ie8-demo.css">
   </head>
   <body>
+    <!--[if (IE 8)]>
+    <script>
+      window.Ember = { ENV: { STUB_OBJECT_CREATE: true } }
+    </script>
+    <![endif]-->
     <script>
       window.EmberCliIe8DemoENV = {{ENV}};
       window.EmberENV = window.EmberCliIe8DemoENV.EmberENV;
