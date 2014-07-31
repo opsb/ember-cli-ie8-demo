@@ -17,7 +17,7 @@
 		}
 	});
 
-#### Tell ember to stub Object.create
+#### Tell ember to stub Object.create (not necessary with the canary build of ember - should be in ember 1.7)
 [index.html](https://github.com/opsb/ember-cli-ie8-demo/blob/master/app/index.html#L16) - Add the following before any other javascript is run.
 
 	<!--[if (IE 8)]>
